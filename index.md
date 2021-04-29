@@ -1,6 +1,6 @@
-# Mathematical Vocoder Algorithm for Efficient NeuralSpeech Synthesis
+# Mathematical Vocoder Algorithm for Efficient Neural Speech Synthesis
 
-In this work, we propose a new mathematical vocoder algorithm that generatesa waveform from acoustic features without phase estimation.  The main benefitof using our proposed method is that it excludes the training stage of the neuralvocoder from the end-to-end speech synthesis model without sacrificing soundquality.   Moreover,  the vocoder no longer limits the synthesis speed or soundquality in inferencing. Our implementation can synthesize speech at 8.82 MHz onan AWS t4g ARM core instance. Since the proposed methodology is not a data-driven method, it is applicable to unseen voices and multiple languages withoutany additional work. The proposed method is expected to adapt for researchingon neural network models capable of synthesizing speech at the studio recordinglevel.
+In this work, we propose a new mathematical vocoder algorithm that generates a waveform from acoustic features without phase estimation.  The main benefit of using our proposed method is that it excludes the training stage of the neural vocoder from the end-to-end speech synthesis model without sacrificing soundquality.   Moreover,  the vocoder no longer limits the synthesis speed or sound quality in inferencing. Our implementation can synthesize speech at 8.82 MHz onan AWS t4g ARM core instance. Since the proposed methodology is not a data-driven method, it is applicable to unseen voices and multiple languages withoutany additional work. The proposed method is expected to adapt for researchingon neural network models capable of synthesizing speech at the studio recording level.
 
 
 
@@ -262,11 +262,11 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 
   <tr>
     <td class="tg-0lax"> WaveFlow (64-layer,  res. channels =&nbsp;&nbsp;&nbsp;256)    </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0001_synthesis.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0003_synthesis.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0005_synthesis.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0015_synthesis.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0016_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveFlow_64_256/LJ001-0001_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveFlow_64_256/LJ001-0003_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveFlow_64_256/LJ001-0005_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveFlow_64_256/LJ001-0015_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveFlow_64_256/LJ001-0016_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
@@ -304,7 +304,7 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
     <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0015_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0016_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
 </tbody>
 </table>
 
