@@ -875,10 +875,194 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 </table>
 
 ## Ablation Studies
+R-MCD 
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">GT</th>
+    <th class="tg-0lax">22 Khz</th>
+    <th class="tg-0lax">21 Khz</th>
+    <th class="tg-0lax">20 Khz</th>
+    <th class="tg-0lax">19 Khz</th>
+    <th class="tg-0lax">18 Khz</th>
+    <th class="tg-0lax">17 Khz</th>
+    <th class="tg-0lax">16 Khz</th>
+    <th class="tg-0lax">15 Khz</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">5.4669</td>
+    <td class="tg-0lax">5.485</td>
+    <td class="tg-0lax">5.5063</td>
+    <td class="tg-0lax">5.5274</td>
+    <td class="tg-0lax">5.5645</td>
+    <td class="tg-0lax">5.6011</td>
+    <td class="tg-0lax">5.6807</td>
+    <td class="tg-0lax">5.7639</td>
+    <td class="tg-0lax">5.8701</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">14 Khz</td>
+    <td class="tg-0lax">13 Khz</td>
+    <td class="tg-0lax">12 Khz</td>
+    <td class="tg-0lax">11 Khz</td>
+    <td class="tg-0lax">10 Khz</td>
+    <td class="tg-0lax">9 Khz</td>
+    <td class="tg-0lax">8 Khz</td>
+    <td class="tg-0lax">7 Khz</td>
+    <td class="tg-0lax">6 Khz</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">5.9553</td>
+    <td class="tg-0lax">6.0065</td>
+    <td class="tg-0lax">6.0502</td>
+    <td class="tg-0lax">6.0738</td>
+    <td class="tg-0lax">6.0963</td>
+    <td class="tg-0lax">6.1532</td>
+    <td class="tg-0lax">6.2358</td>
+    <td class="tg-0lax">6.3837</td>
+    <td class="tg-0lax">6.5192</td>
+  </tr>
+</tbody>
+</table>
 
 ### Algorithm 1 Half Spectrum Bin 
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-lqy6"> </th>
+    <th class="tg-lqy6">1024</th>
+    <th class="tg-lqy6">768</th>
+    <th class="tg-lqy6">512</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-lqy6">768</td>
+    <td class="tg-lqy6">-</td>
+    <td class="tg-lqy6">-</td>
+    <td class="tg-lqy6">-</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">512</td>
+    <td class="tg-lqy6">7.1201</td>
+    <td class="tg-lqy6">-</td>
+    <td class="tg-lqy6">-</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">384</td>
+    <td class="tg-lqy6">7.0498</td>
+    <td class="tg-lqy6">7.0842</td>
+    <td class="tg-lqy6">-</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">256</td>
+    <td class="tg-lqy6">6.9279</td>
+    <td class="tg-lqy6">7.0039</td>
+    <td class="tg-lqy6">7.0491</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">192</td>
+    <td class="tg-lqy6">6.9282</td>
+    <td class="tg-lqy6">7.0204</td>
+    <td class="tg-lqy6">6.9884</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">128</td>
+    <td class="tg-lqy6">6.6855</td>
+    <td class="tg-lqy6">6.8673</td>
+    <td class="tg-lqy6">6.9730</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">96</td>
+    <td class="tg-lqy6">6.558</td>
+    <td class="tg-lqy6">6.6353</td>
+    <td class="tg-lqy6">6.7327</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">64</td>
+    <td class="tg-lqy6">6.4737</td>
+    <td class="tg-lqy6">6.7202</td>
+    <td class="tg-lqy6">6.7075</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">32</td>
+    <td class="tg-lqy6">6.203</td>
+    <td class="tg-lqy6">6.2363</td>
+    <td class="tg-lqy6">6.3246</td>
+  </tr>
+</tbody>
+</table>
 
 ### Algorithm 2 Full Spectrum Bin
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-lqy6"> </th>
+    <th class="tg-lqy6">1024</th>
+    <th class="tg-lqy6">768</th>
+    <th class="tg-lqy6">512</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-lqy6">768</td>
+    <td class="tg-lqy6">-</td>
+    <td class="tg-lqy6">-</td>
+    <td class="tg-lqy6">-</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">512</td>
+    <td class="tg-lqy6">7.1201</td>
+    <td class="tg-lqy6">-</td>
+    <td class="tg-lqy6">-</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">384</td>
+    <td class="tg-lqy6">7.0498</td>
+    <td class="tg-lqy6">7.0842</td>
+    <td class="tg-lqy6">-</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">256</td>
+    <td class="tg-lqy6">6.9279</td>
+    <td class="tg-lqy6">7.0039</td>
+    <td class="tg-lqy6">7.0491</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">192</td>
+    <td class="tg-lqy6">6.9282</td>
+    <td class="tg-lqy6">7.0204</td>
+    <td class="tg-lqy6">6.9884</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">128</td>
+    <td class="tg-lqy6">6.6855</td>
+    <td class="tg-lqy6">6.8673</td>
+    <td class="tg-lqy6">6.9730</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">96</td>
+    <td class="tg-lqy6">6.558</td>
+    <td class="tg-lqy6">6.6353</td>
+    <td class="tg-lqy6">6.7327</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">64</td>
+    <td class="tg-lqy6">6.4737</td>
+    <td class="tg-lqy6">6.7202</td>
+    <td class="tg-lqy6">6.7075</td>
+  </tr>
+  <tr>
+    <td class="tg-lqy6">32</td>
+    <td class="tg-lqy6">6.203</td>
+    <td class="tg-lqy6">6.2363</td>
+    <td class="tg-lqy6">6.3246</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## denoising with zero clipping
