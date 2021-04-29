@@ -487,33 +487,33 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64S/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64S/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">Ours ( Algo1&nbsp;&nbsp;&nbsp;half zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0015_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0051_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0063_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0072_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0079_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
 
 
   <tr>
     <td class="tg-lqy6">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0015_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0051_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0063_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0072_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0079_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
     <td class="tg-lqy6">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0015_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0051_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0063_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0072_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0079_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
 
 </tbody>
