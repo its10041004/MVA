@@ -940,12 +940,6 @@ R-MCD
 </thead>
 <tbody>
   <tr>
-    <td class="tg-lqy6">768</td>
-    <td class="tg-lqy6">-</td>
-    <td class="tg-lqy6">-</td>
-    <td class="tg-lqy6">-</td>
-  </tr>
-  <tr>
     <td class="tg-lqy6">512</td>
     <td class="tg-lqy6">7.1201</td>
     <td class="tg-lqy6">-</td>
@@ -1007,12 +1001,6 @@ R-MCD
   </tr>
 </thead>
 <tbody>
-  <tr>
-    <td class="tg-lqy6">768</td>
-    <td class="tg-lqy6">-</td>
-    <td class="tg-lqy6">-</td>
-    <td class="tg-lqy6">-</td>
-  </tr>
   <tr>
     <td class="tg-lqy6">512</td>
     <td class="tg-lqy6">7.1201</td>
