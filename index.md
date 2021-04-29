@@ -295,7 +295,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt/LJ001-0004.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt/LJ001-0005.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">WaveNet&nbsp;&nbsp;&nbsp;(C = 128)   </td>
     <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveNet_128/teacher8_l30_k2-LJ001-0001.wav" type="audio/wav"></audio> </td>
@@ -304,7 +304,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveNet_128/teacher8_l30_k2-LJ001-0004.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveNet_128/teacher8_l30_k2-LJ001-0005.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">WaveFlow&nbsp;&nbsp;&nbsp;(C = 128)  </td>
     <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_128/LJ001-0001_synthesis.wav" type="audio/wav"></audio> </td>
@@ -312,8 +312,6 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_128/LJ001-0003_synthesis.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_128/LJ001-0004_synthesis.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_128/LJ001-0005_synthesis.wav" type="audio/wav"></audio> </td>
-  </tr>
-    <td class="tg-0lax"> </td>
   </tr>
   
   <tr>
@@ -468,7 +466,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64_L/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64_L/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">SqueezeWave 64S</td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64S/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
@@ -486,7 +484,6 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0072_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0079_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
-
 
   <tr>
     <td class="tg-lqy6">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
@@ -521,4 +518,4 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
 ## Additional Studies
 ### denoising with zero clipping
 
-End of page
+End of page ( 30 April. 2021)
