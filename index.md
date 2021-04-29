@@ -518,5 +518,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
 
 ### Algorithm 2 Full Spectrum Bin
  
+## Additional Studies
+### denoising with zero clipping
 
-## denoising with zero clipping
+End of page
