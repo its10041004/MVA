@@ -4,10 +4,23 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 
 
 
-## Reference Audio 
+## Quality Comparision ( samples from Hifi-Audio) 
 
 
-## 
+|                                       |    1 (LJ050-0270)   |   2 (LJ017-0033)    |   3 (LJ004-0233)    |   4 (LJ011-0009)    |   5 (LJ042-0161)    |
+|---------------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+| Ground Truth                          |                     |                     |                     |                     |                     |
+| WaveNet (MoL)                         |                     |                     |                     |                     |                     |
+| WaveGlow                              |                     |                     |                     |                     |                     |
+| MelGAN                                |                     |                     |                     |                     |                     |
+| HiFi-GAN V1                           |                     |                     |                     |                     |                     |
+| HiFi-GAN V2                           |                     |                     |                     |                     |                     |
+| HiFi-GAN V3                           |                     |                     |                     |                     |                     |
+| Ours ( Algo1   half zeroclip 1024/64) |                     |                     |                     |                     |                     |
+| Ours ( Algo2   full zeroclip 1024/64) |                     |                     |                     |                     |                     |
+| Ours ( Algo2   full zeroclip 1024/64) |                     |                     |                     |                     |                     |
+| Ours ( Algo3   full signed 512/510)   |                     |                     |                     |                     |                     |
+| Ours ( Algo3   full signed 512/384)   |                     |                     |                     |                     |                     |
 
 
 ## artifacts
