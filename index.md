@@ -5,9 +5,8 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 
 
 ## Quality Comparision 
+
 ### LJSpeech samples from [Hifi-GAN](https://jik876.github.io/hifi-gan-demo/) 
-
-
 |                                       |    1 (LJ050-0270)   |   2 (LJ017-0033)    |   3 (LJ004-0233)    |   4 (LJ011-0009)    |   5 (LJ042-0161)    |
 |---------------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
 | Ground Truth                          |                     |                     |                     |                     |                     |
@@ -24,8 +23,9 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 | Ours ( Algo3   full signed 512/384)   |                     |                     |                     |                     |                     |
 
 
-### LJSpeech samples from [samples from WaveFlow](https://waveflow-demo.github.io/ )
+### LJSpeech sampels from  [WaveFlow](https://waveflow-demo.github.io/)
 |                                                  | 1 (LJ001-0001) | 2 (LJ001-0003) | 3 (LJ001-0005) | 4 (LJ001-0015) | 5 (LJ001-00016) |
+|--------------------------------------------------|----------------|----------------|----------------|----------------|-----------------|
 |  Ground-truth (recorded speech)                  |                |                |                |                |                 |
 |  WaveNet (30-layer,  res. channels =   128)      |                |                |                |                |                 |
 |  WaveGlow (96-layer,  res. channels =   256)     |                |                |                |                |                 |
@@ -35,11 +35,11 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 | WaveFlow (64-layer,  res. channels =   128)      |                |                |                |                |                 |
 | WaveFlow (64-layer,  res. channels = 64)         |                |                |                |                |                 |
 | ClariNet (60-layer,  res. channels = 64)         |                |                |                |                |                 |
-| Ours ( Algo1   half zeroclip 1024/64) |                     |                     |                     |                     |                     |
-| Ours ( Algo2   full zeroclip 1024/64) |                     |                     |                     |                     |                     |
-| Ours ( Algo2   full zeroclip 1024/64) |                     |                     |                     |                     |                     |
-| Ours ( Algo3   full signed 512/510)   |                     |                     |                     |                     |                     |
-| Ours ( Algo3   full signed 512/384)   |                     |                     |                     |                     |                     |
+| Ours ( Algo1   half zeroclip 1024/64)            |                |                |                |                |                 |
+| Ours ( Algo2   full zeroclip 1024/64)            |                |                |                |                |                 |
+| Ours ( Algo2   full zeroclip 1024/64)            |                |                |                |                |                 |
+| Ours ( Algo3   full signed 512/510)              |                |                |                |                |                 |
+| Ours ( Algo3   full signed 512/384)              |                |                |                |                |                 |
 
 
 ### LJSpeech sampels from [DiffWave](https://diffwave-demo.github.io/)
@@ -57,6 +57,27 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 | Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |
 | Ours ( Algo3   full signed 512/510)   |                |                |                |                |                |
 | Ours ( Algo3   full signed 512/384)   |                |                |                |                |                |
+
+
+### LJSpeech sampels from [WaveGlow](https://nv-adlr.github.io/WaveGlow/) and [SqueezeWave](https://tianrengao.github.io/SqueezeWaveDemo/)
+
+|                                       | 1 (LJ001-0015) | 2 (LJ001-0051) | 3 (LJ001-0063) | 4 (LJ001-0072) | 5 (LJ001-0079) | 6 (LJ001-0094) | 7 (LJ001-0096) | 8 (LJ001-0102) | 9  (LJ001-0153) | 10 (LJ001-0173) |
+|---------------------------------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|-----------------|-----------------|
+| Ground Truth                          |                |                |                |                |                |                |                |                |                 |                 |
+| Griffin-Lim                           |                |                |                |                |                |                |                |                |                 |                 |
+| WaveNet                               |                |                |                |                |                |                |                |                |                 |                 |
+| WaveGlow                              |                |                |                |                |                |                |                |                |                 |                 |
+| WaveGlow(SW)                          |                |                |                |                |                |                |                |                |                 |                 |
+| SqueezeWave 128L                      |                |                |                |                |                |                |                |                |                 |                 |
+| SqueezeWave 128S                      |                |                |                |                |                |                |                |                |                 |                 |
+| SqueezeWave 64L                       |                |                |                |                |                |                |                |                |                 |                 |
+| SqueezeWave 64S                       |                |                |                |                |                |                |                |                |                 |                 |
+| Ours ( Algo1   half zeroclip 1024/64) |                |                |                |                |                |                |                |                |                 |                 |
+| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |                |                |                |                 |                 |
+| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |                |                |                |                 |                 |
+| Ours ( Algo3   full signed 512/510)   |                |                |                |                |                |                |                |                |                 |                 |
+| Ours ( Algo3   full signed 512/384)   |                |                |                |                |                |                |                |                |                 |                 |
+
 
 
 ## Ablation Studies
