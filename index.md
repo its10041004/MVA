@@ -389,10 +389,9 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
   </tr>
 
 </tbody>
-</table> |
+</table> 
 
  
-
 ### LJSpeech sampels from [WaveGlow](https://nv-adlr.github.io/WaveGlow/) and [SqueezeWave](https://tianrengao.github.io/SqueezeWaveDemo/)
  
 <table class="tg">
@@ -417,7 +416,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
   </tr>
 
   <tr>
-    <td class="tg-lqy6">Griffin-Lim</td>
+    <td class="tg-lqy6">Griffin-Lim(WG)</td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0015.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0051.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0063.wav" type="audio/wav"></audio> </td>
@@ -426,7 +425,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
   </tr>
 
   <tr>
-    <td class="tg-lqy6">WaveNet</td>
+    <td class="tg-lqy6">WaveNet(WG)</td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0015.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0051.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0063.wav" type="audio/wav"></audio> </td>
@@ -509,11 +508,11 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
 
   <tr>
     <td class="tg-lqy6">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0015_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0051_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0063_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0072_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0079_Ours_full_signed_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0015_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0051_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0063_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0072_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_ours/LJ001-0079_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
   </tr>
 
 </tbody>
