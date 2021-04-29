@@ -103,11 +103,11 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
   </tr>
   <tr>
     <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_full_full_signed_512_384.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_full_full_signed_512_384.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN3_GT_LJ004-0233_Ours_full_full_signed_512_384.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN4_GT_LJ011-0009_Ours_full_full_signed_512_384.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN5_GT_LJ042-0161_Ours_full_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN3_GT_LJ004-0233_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN4_GT_LJ011-0009_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN5_GT_LJ042-0161_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
   </tr>
   
 </tbody>
@@ -128,101 +128,100 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 <tbody>
   <tr>
     <td class="tg-0lax">Ground Truth</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt/assets_audio__gt_LJ003-0307.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt/assets_audio__gt_LJ005-0101.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt/assets_audio__gt_LJ007-0217.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt/assets_audio__gt_LJ008-0131.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt/assets_audio__gt_LJ010-0262.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
     <td class="tg-0lax">HifiGAN</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGAN/assets_audio__hfg2-hfg2_gt_LJ003-0307.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGAN/assets_audio__hfg2-hfg2_gt_LJ005-0101.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGAN/assets_audio__hfg2-hfg2_gt_LJ007-0217.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGAN/assets_audio__hfg2-hfg2_gt_LJ008-0131.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGAN/assets_audio__hfg2-hfg2_gt_LJ010-0262.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-0lax">HifiGAN(MultiRes)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGANours/assets_audio__hfg2-custom_gt_LJ003-0307.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGANours/assets_audio__hfg2-custom_gt_LJ005-0101.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGANours/assets_audio__hfg2-custom_gt_LJ007-0217.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGANours/assets_audio__hfg2-custom_gt_LJ008-0131.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_HifiGANours/assets_audio__hfg2-custom_gt_LJ010-0262.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
     <td class="tg-0lax">pWaveGAN</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_pWaveGAN/assets_audio__hfg2-pwg_gt_LJ003-0307.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_pWaveGAN/assets_audio__hfg2-pwg_gt_LJ005-0101.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_pWaveGAN/assets_audio__hfg2-pwg_gt_LJ007-0217.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_pWaveGAN/assets_audio__hfg2-pwg_gt_LJ008-0131.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_pWaveGAN/assets_audio__hfg2-pwg_gt_LJ010-0262.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
     <td class="tg-0lax">uMelGAN</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_uMelGAN/assets_audio__hfg2-umg_gt_LJ003-0307.wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_uMelGAN/assets_audio__hfg2-umg_gt_LJ005-0101.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_uMelGAN/assets_audio__hfg2-umg_gt_LJ007-0217.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_uMelGAN/assets_audio__hfg2-umg_gt_LJ008-0131.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_uMelGAN/assets_audio__hfg2-umg_gt_LJ010-0262.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
     <td class="tg-0lax">VocGAN</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_VocGAN/assets_audio__hfg2-vocgan_gt_LJ003-0307.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_VocGAN/assets_audio__hfg2-vocgan_gt_LJ005-0101.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_VocGAN/assets_audio__hfg2-vocgan_gt_LJ007-0217.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_VocGAN/assets_audio__hfg2-vocgan_gt_LJ008-0131.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_gt_VocGAN/assets_audio__hfg2-vocgan_gt_LJ010-0262.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
     <td class="tg-0lax">Ours ( Algo1&nbsp;&nbsp;&nbsp;half zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ003-0307_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ005-0101_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ007-0217_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ008-0131_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ010-0262_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
     <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ003-0307_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ005-0101_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ007-0217_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ008-0131_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ010-0262_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
     <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ003-0307_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ005-0101_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ007-0217_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ008-0131_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ010-0262_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
     <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ003-0307_Ours_half_signed_512_510.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ005-0101_Ours_half_signed_512_510.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ007-0217_Ours_half_signed_512_510.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ008-0131_Ours_half_signed_512_510.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ010-0262_Ours_half_signed_512_510.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+  
   <tr>
     <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ003-0307_Ours_half_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ005-0101_Ours_half_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ007-0217_Ours_half_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ008-0131_Ours_half_signed_512_384.wav" type="audio/wav"></audio> </td>
   </tr>
 
 </tbody>
