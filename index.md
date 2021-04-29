@@ -17,7 +17,6 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 | HiFi-GAN V1                           |                     |                     |                     |                     |                     |
 | HiFi-GAN V2                           |                     |                     |                     |                     |                     |
 | HiFi-GAN V3                           |                     |                     |                     |                     |                     |
-|---------------------------------------|----------------|----------------|----------------|----------------|----------------|
 | Ours ( Algo1   half zeroclip 1024/64) |                     |                     |                     |                     |                     |
 | Ours ( Algo2   full zeroclip 1024/64) |                     |                     |                     |                     |                     |
 | Ours ( Algo2   full zeroclip 1024/64) |                     |                     |                     |                     |                     |
@@ -27,7 +26,6 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 
 ### LJSpeech samples from [samples from WaveFlow](https://waveflow-demo.github.io/ )
 |                                                  | 1 (LJ001-0001) | 2 (LJ001-0003) | 3 (LJ001-0005) | 4 (LJ001-0015) | 5 (LJ001-00016) |
-|--------------------------------------------------|----------------|----------------|----------------|----------------|-----------------|
 |  Ground-truth (recorded speech)                  |                |                |                |                |                 |
 |  WaveNet (30-layer,  res. channels =   128)      |                |                |                |                |                 |
 |  WaveGlow (96-layer,  res. channels =   256)     |                |                |                |                |                 |
@@ -37,7 +35,6 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 | WaveFlow (64-layer,  res. channels =   128)      |                |                |                |                |                 |
 | WaveFlow (64-layer,  res. channels = 64)         |                |                |                |                |                 |
 | ClariNet (60-layer,  res. channels = 64)         |                |                |                |                |                 |
-|---------------------------------------|----------------|----------------|----------------|----------------|----------------|
 | Ours ( Algo1   half zeroclip 1024/64) |                     |                     |                     |                     |                     |
 | Ours ( Algo2   full zeroclip 1024/64) |                     |                     |                     |                     |                     |
 | Ours ( Algo2   full zeroclip 1024/64) |                     |                     |                     |                     |                     |
@@ -55,7 +52,6 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 | WaveFlow   (C = 64)                   |                |                |                |                |                |
 | DiffWave   (C = 64,  T = 50)          |                |                |                |                |                |
 | ClariNet   (C = 64)                   |                |                |                |                |                |
-|---------------------------------------|----------------|----------------|----------------|----------------|----------------|
 | Ours ( Algo1   half zeroclip 1024/64) |                |                |                |                |                |
 | Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |
 | Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |
