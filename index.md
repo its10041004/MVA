@@ -4,7 +4,7 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 
 
 
-## Quality Comparision ( samples from Hifi-Audio) 
+## Quality Comparision ( samples from Hifi-GAN) 
 
 
 |                                       |    1 (LJ050-0270)   |   2 (LJ017-0033)    |   3 (LJ004-0233)    |   4 (LJ011-0009)    |   5 (LJ042-0161)    |
