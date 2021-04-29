@@ -121,6 +121,7 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 
 ### LJSpeech sampels from  [GAN vocoder](https://moneybrain-research.github.io/gan-vocoder//)
 
+<table class="tg">
 <thead>
   <tr>
     <th class="tg-0pky"> </th>
@@ -668,26 +669,210 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 </tbody>
 </table> |
 
-
-### LJSpeech sampels from [DiffWave](https://diffwave-demo.github.io/)
-|                                       | 1 (LJ001-0001) | 2 (LJ001-0002) | 3 (LJ001-0003) | 4 (LJ001-0004) | 5 (LJ001-0005) |
-|---------------------------------------|----------------|----------------|----------------|----------------|----------------|
-| Ground-truth                          |                |                |                |                |                |
-| WaveNet   (C = 128)                   |                |                |                |                |                |
-| WaveFlow   (C = 128)                  |                |                |                |                |                |
-| DiffWave   (C = 128, T = 200)         |                |                |                |                |                |
-| WaveFlow   (C = 64)                   |                |                |                |                |                |
-| DiffWave   (C = 64,  T = 50)          |                |                |                |                |                |
-| ClariNet   (C = 64)                   |                |                |                |                |                |
-| Ours ( Algo1   half zeroclip 1024/64) |                |                |                |                |                |
-| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |
-| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |
-| Ours ( Algo3   full signed 512/510)   |                |                |                |                |                |
-| Ours ( Algo3   full signed 512/384)   |                |                |                |                |                |
-
+ 
 
 ### LJSpeech sampels from [WaveGlow](https://nv-adlr.github.io/WaveGlow/) and [SqueezeWave](https://tianrengao.github.io/SqueezeWaveDemo/)
- 
+ <table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"> </th>
+    <th class="tg-0lax">1 (LJ001-0015)</th>
+    <th class="tg-0lax">2 (LJ001-0051)</th>
+    <th class="tg-0lax">3 (LJ001-0063)</th>
+    <th class="tg-0lax">4 (LJ001-0072)</th>
+    <th class="tg-0lax">5 (LJ001-0079)</th>
+    <th class="tg-0lax">6 (LJ001-0094)</th>
+    <th class="tg-0lax">7 (LJ001-0096)</th>
+    <th class="tg-0lax">8 (LJ001-0102)</th>
+    <th class="tg-0lax">9  (LJ001-0153)</th>
+    <th class="tg-0lax">10 (LJ001-0173)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Ground Truth</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Griffin-Lim</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveNet</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveGlow</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveGlow(SW)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">SqueezeWave 128L</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">SqueezeWave 128S</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">SqueezeWave 64L</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">SqueezeWave 64S</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo1&nbsp;&nbsp;&nbsp;half zeroclip 1024/64)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+</tbody>
+</table>
 
 ## Ablation Studies
 
