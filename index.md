@@ -183,15 +183,6 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
 
   <tr>
     <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ003-0307_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ005-0101_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ007-0217_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ008-0131_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ010-0262_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-  </tr>
-
-  <tr>
-    <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
     <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ003-0307_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ005-0101_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ007-0217_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
