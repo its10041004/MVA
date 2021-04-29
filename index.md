@@ -507,6 +507,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
 </table>
  
 
+
 ## Ablation Studies
  
 
@@ -516,6 +517,9 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
 ### Algorithm 2 Full Spectrum Bin
  
 ## Additional Studies
+
+### Artifacts in Algorithm 1
+
 ### denoising with zero clipping
 
 End of page ( 30 April. 2021)
