@@ -119,70 +119,8 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 </tbody>
 </table>
 
+### LJSpeech sampels from  [GAN vocoder](https://moneybrain-research.github.io/gan-vocoder//)
 
-### LJSpeech sampels from  [WaveFlow](https://waveflow-demo.github.io/)
-|                                                  | 1 (LJ001-0001) | 2 (LJ001-0003) | 3 (LJ001-0005) | 4 (LJ001-0015) | 5 (LJ001-00016) |
-|--------------------------------------------------|----------------|----------------|----------------|----------------|-----------------|
-|  Ground-truth (recorded speech)                  |                |                |                |                |                 |
-|  WaveNet (30-layer,  res. channels =   128)      |                |                |                |                |                 |
-|  WaveGlow (96-layer,  res. channels =   256)     |                |                |                |                |                 |
-| WaveGlow (96-layer,  res. channels =   128)      |                |                |                |                |                 |
-| WaveGlow (96-layer,  res. channels = 64)         |                |                |                |                |                 |
-|  WaveFlow (64-layer,  res. channels =   256)     |                |                |                |                |                 |
-| WaveFlow (64-layer,  res. channels =   128)      |                |                |                |                |                 |
-| WaveFlow (64-layer,  res. channels = 64)         |                |                |                |                |                 |
-| ClariNet (60-layer,  res. channels = 64)         |                |                |                |                |                 |
-| Ours ( Algo1   half zeroclip 1024/64)            |                |                |                |                |                 |
-| Ours ( Algo2   full zeroclip 1024/64)            |                |                |                |                |                 |
-| Ours ( Algo2   full zeroclip 1024/64)            |                |                |                |                |                 |
-| Ours ( Algo3   full signed 512/510)              |                |                |                |                |                 |
-| Ours ( Algo3   full signed 512/384)              |                |                |                |                |                 |
-
-
-### LJSpeech sampels from [DiffWave](https://diffwave-demo.github.io/)
-|                                       | 1 (LJ001-0001) | 2 (LJ001-0002) | 3 (LJ001-0003) | 4 (LJ001-0004) | 5 (LJ001-0005) |
-|---------------------------------------|----------------|----------------|----------------|----------------|----------------|
-| Ground-truth                          |                |                |                |                |                |
-| WaveNet   (C = 128)                   |                |                |                |                |                |
-| WaveFlow   (C = 128)                  |                |                |                |                |                |
-| DiffWave   (C = 128, T = 200)         |                |                |                |                |                |
-| WaveFlow   (C = 64)                   |                |                |                |                |                |
-| DiffWave   (C = 64,  T = 50)          |                |                |                |                |                |
-| ClariNet   (C = 64)                   |                |                |                |                |                |
-| Ours ( Algo1   half zeroclip 1024/64) |                |                |                |                |                |
-| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |
-| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |
-| Ours ( Algo3   full signed 512/510)   |                |                |                |                |                |
-| Ours ( Algo3   full signed 512/384)   |                |                |                |                |                |
-
-
-### LJSpeech sampels from [WaveGlow](https://nv-adlr.github.io/WaveGlow/) and [SqueezeWave](https://tianrengao.github.io/SqueezeWaveDemo/)
-
-|                                       | 1 (LJ001-0015) | 2 (LJ001-0051) | 3 (LJ001-0063) | 4 (LJ001-0072) | 5 (LJ001-0079) | 6 (LJ001-0094) | 7 (LJ001-0096) | 8 (LJ001-0102) | 9  (LJ001-0153) | 10 (LJ001-0173) |
-|---------------------------------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|-----------------|-----------------|
-| Ground Truth                          |                |                |                |                |                |                |                |                |                 |                 |
-| Griffin-Lim                           |                |                |                |                |                |                |                |                |                 |                 |
-| WaveNet                               |                |                |                |                |                |                |                |                |                 |                 |
-| WaveGlow                              |                |                |                |                |                |                |                |                |                 |                 |
-| WaveGlow(SW)                          |                |                |                |                |                |                |                |                |                 |                 |
-| SqueezeWave 128L                      |                |                |                |                |                |                |                |                |                 |                 |
-| SqueezeWave 128S                      |                |                |                |                |                |                |                |                |                 |                 |
-| SqueezeWave 64L                       |                |                |                |                |                |                |                |                |                 |                 |
-| SqueezeWave 64S                       |                |                |                |                |                |                |                |                |                 |                 |
-| Ours ( Algo1   half zeroclip 1024/64) |                |                |                |                |                |                |                |                |                 |                 |
-| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |                |                |                |                 |                 |
-| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |                |                |                |                 |                 |
-| Ours ( Algo3   full signed 512/510)   |                |                |                |                |                |                |                |                |                 |                 |
-| Ours ( Algo3   full signed 512/384)   |                |                |                |                |                |                |                |                |                 |                 |
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
 <thead>
   <tr>
     <th class="tg-0pky"> </th>
@@ -487,6 +425,269 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
   </tr>
 </tbody>
 </table>
+
+### LJSpeech sampels from  [WaveFlow](https://waveflow-demo.github.io/)
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"> </th>
+    <th class="tg-0lax">1 (LJ001-0001)</th>
+    <th class="tg-0lax">2 (LJ001-0003)</th>
+    <th class="tg-0lax">3 (LJ001-0005)</th>
+    <th class="tg-0lax">4 (LJ001-0015)</th>
+    <th class="tg-0lax">5 (LJ001-00016)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"> Ground-truth (recorded speech)    </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"> WaveNet (30-layer,  res. channels =&nbsp;&nbsp;&nbsp;128)    </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"> WaveGlow (96-layer,  res. channels =&nbsp;&nbsp;&nbsp;256)    </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveGlow (96-layer,  res. channels =&nbsp;&nbsp;&nbsp;128)    </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveGlow (96-layer,  res. channels = 64) </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"> WaveFlow (64-layer,  res. channels =&nbsp;&nbsp;&nbsp;256)    </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveFlow (64-layer,  res. channels =&nbsp;&nbsp;&nbsp;128)    </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveFlow (64-layer,  res. channels = 64) </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">ClariNet (60-layer,  res. channels = 64)  </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo1&nbsp;&nbsp;&nbsp;half zeroclip 1024/64)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+</tbody>
+</table>
+
+
+### LJSpeech sampels from  [DiffWave](https://diffwave-demo.github.io/)
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"> </th>
+    <th class="tg-0lax">1 (LJ001-0001)</th>
+    <th class="tg-0lax">2 (LJ001-0002)</th>
+    <th class="tg-0lax">3 (LJ001-0003)</th>
+    <th class="tg-0lax">4 (LJ001-0004)</th>
+    <th class="tg-0lax">5 (LJ001-0005)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Ground-truth </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveNet&nbsp;&nbsp;&nbsp;(C = 128)   </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveFlow&nbsp;&nbsp;&nbsp;(C = 128)  </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">DiffWave&nbsp;&nbsp;&nbsp;(C = 128, T = 200)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">WaveFlow&nbsp;&nbsp;&nbsp;(C = 64)    </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">DiffWave&nbsp;&nbsp;&nbsp;(C = 64,  T = 50)   </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">ClariNet&nbsp;&nbsp;&nbsp;(C = 64) </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo1&nbsp;&nbsp;&nbsp;half zeroclip 1024/64)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+    <td class="tg-0lax"> </td>
+  </tr>
+</tbody>
+</table> |
+
+
+### LJSpeech sampels from [DiffWave](https://diffwave-demo.github.io/)
+|                                       | 1 (LJ001-0001) | 2 (LJ001-0002) | 3 (LJ001-0003) | 4 (LJ001-0004) | 5 (LJ001-0005) |
+|---------------------------------------|----------------|----------------|----------------|----------------|----------------|
+| Ground-truth                          |                |                |                |                |                |
+| WaveNet   (C = 128)                   |                |                |                |                |                |
+| WaveFlow   (C = 128)                  |                |                |                |                |                |
+| DiffWave   (C = 128, T = 200)         |                |                |                |                |                |
+| WaveFlow   (C = 64)                   |                |                |                |                |                |
+| DiffWave   (C = 64,  T = 50)          |                |                |                |                |                |
+| ClariNet   (C = 64)                   |                |                |                |                |                |
+| Ours ( Algo1   half zeroclip 1024/64) |                |                |                |                |                |
+| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |
+| Ours ( Algo2   full zeroclip 1024/64) |                |                |                |                |                |
+| Ours ( Algo3   full signed 512/510)   |                |                |                |                |                |
+| Ours ( Algo3   full signed 512/384)   |                |                |                |                |                |
+
+
+### LJSpeech sampels from [WaveGlow](https://nv-adlr.github.io/WaveGlow/) and [SqueezeWave](https://tianrengao.github.io/SqueezeWaveDemo/)
+ 
 
 ## Ablation Studies
 
