@@ -415,7 +415,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt/LJ001-0072.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt/LJ001-0079.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">Griffin-Lim</td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0015.wav" type="audio/wav"></audio> </td>
@@ -424,7 +424,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0072.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0079.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">WaveNet</td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0015.wav" type="audio/wav"></audio> </td>
@@ -433,7 +433,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0072.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0079.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">WaveGlow</td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveGlow/LJ001-0015.wav" type="audio/wav"></audio> </td>
@@ -442,7 +442,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveGlow/LJ001-0072.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveGlow/LJ001-0079.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">WaveGlow(SW)</td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_baseline_WaveGlow/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
@@ -451,7 +451,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_baseline_WaveGlow/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_baseline_WaveGlow/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">SqueezeWave 128L</td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128L/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
@@ -460,7 +460,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128L/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128L/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">SqueezeWave 128S</td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128S/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
@@ -469,7 +469,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128S/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128S/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">SqueezeWave 64L</td>
     <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64_L/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
@@ -521,8 +521,6 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
  
 
 ## Ablation Studies
-R-MCD 
-
  
 
 ### Algorithm 1 Half Spectrum Bin 
