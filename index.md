@@ -994,63 +994,62 @@ R-MCD
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-lqy6"> </th>
-    <th class="tg-lqy6">1024</th>
-    <th class="tg-lqy6">768</th>
-    <th class="tg-lqy6">512</th>
+    <th class="tg-0lax"> </th>
+    <th class="tg-0lax">1024</th>
+    <th class="tg-0lax">768</th>
+    <th class="tg-0lax">512</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-lqy6">512</td>
-    <td class="tg-lqy6">7.1201</td>
-    <td class="tg-lqy6">-</td>
-    <td class="tg-lqy6">-</td>
+    <td class="tg-0lax">512</td>
+    <td class="tg-0lax">6.3424</td>
+    <td class="tg-0lax">-</td>
+    <td class="tg-0lax">-</td>
   </tr>
   <tr>
-    <td class="tg-lqy6">384</td>
-    <td class="tg-lqy6">7.0498</td>
-    <td class="tg-lqy6">7.0842</td>
-    <td class="tg-lqy6">-</td>
+    <td class="tg-0lax">384</td>
+    <td class="tg-0lax">6.1896</td>
+    <td class="tg-0lax">6.4334</td>
+    <td class="tg-0lax">-</td>
   </tr>
   <tr>
-    <td class="tg-lqy6">256</td>
-    <td class="tg-lqy6">6.9279</td>
-    <td class="tg-lqy6">7.0039</td>
-    <td class="tg-lqy6">7.0491</td>
+    <td class="tg-0lax">256</td>
+    <td class="tg-0lax">6.0609</td>
+    <td class="tg-0lax">6.1309</td>
+    <td class="tg-0lax">6.5778</td>
   </tr>
   <tr>
-    <td class="tg-lqy6">192</td>
-    <td class="tg-lqy6">6.9282</td>
-    <td class="tg-lqy6">7.0204</td>
-    <td class="tg-lqy6">6.9884</td>
+    <td class="tg-0lax">192</td>
+    <td class="tg-0lax">6.0109</td>
+    <td class="tg-0lax">6.022</td>
+    <td class="tg-0lax">6.1632</td>
   </tr>
   <tr>
-    <td class="tg-lqy6">128</td>
-    <td class="tg-lqy6">6.6855</td>
-    <td class="tg-lqy6">6.8673</td>
-    <td class="tg-lqy6">6.9730</td>
+    <td class="tg-0lax">128</td>
+    <td class="tg-0lax">5.9476</td>
+    <td class="tg-0lax">5.9648</td>
+    <td class="tg-0lax">6.0506</td>
   </tr>
   <tr>
-    <td class="tg-lqy6">96</td>
-    <td class="tg-lqy6">6.558</td>
-    <td class="tg-lqy6">6.6353</td>
-    <td class="tg-lqy6">6.7327</td>
+    <td class="tg-0lax">96</td>
+    <td class="tg-0lax">5.8248</td>
+    <td class="tg-0lax">5.8564</td>
+    <td class="tg-0lax">5.9512</td>
   </tr>
   <tr>
-    <td class="tg-lqy6">64</td>
-    <td class="tg-lqy6">6.4737</td>
-    <td class="tg-lqy6">6.7202</td>
-    <td class="tg-lqy6">6.7075</td>
+    <td class="tg-0lax">64</td>
+    <td class="tg-0lax">5.7976</td>
+    <td class="tg-0lax">5.8271</td>
+    <td class="tg-0lax">5.8584</td>
   </tr>
   <tr>
-    <td class="tg-lqy6">32</td>
-    <td class="tg-lqy6">6.203</td>
-    <td class="tg-lqy6">6.2363</td>
-    <td class="tg-lqy6">6.3246</td>
+    <td class="tg-0lax">32</td>
+    <td class="tg-0lax">5.6499</td>
+    <td class="tg-0lax">5.6692</td>
+    <td class="tg-0lax">5.7065</td>
   </tr>
 </tbody>
 </table>
-
 
 ## denoising with zero clipping
