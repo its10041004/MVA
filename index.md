@@ -512,14 +512,196 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
  
 
 ### Algorithm 1 Half Spectrum Bin 
- 
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">win</th>
+    <th class="tg-0lax">hop</th>
+    <th class="tg-0lax">MCD</th>
+    <th class="tg-0lax">sample</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">1024</td>
+    <td class="tg-0lax">512</td>
+    <td class="tg-0lax">7.1201</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_1024_512.wav" type="audio/wav"></audio>   </td>   
+  </tr>
+  <tr>
+    <td class="tg-0lax">1024</td>
+    <td class="tg-0lax">384</td>
+    <td class="tg-0lax">7.0498</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_1024_384.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">1024</td>
+    <td class="tg-0lax">256</td>
+    <td class="tg-0lax">6.9279</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_1024_256.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">1024</td>
+    <td class="tg-0lax">192</td>
+    <td class="tg-0lax">6.9282</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_1024_192.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">1024</td>
+    <td class="tg-0lax">128</td>
+    <td class="tg-0lax">6.6855</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_1024_128.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">1024</td>
+    <td class="tg-0lax">96</td>
+    <td class="tg-0lax">6.558</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_1024_96.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">1024</td>
+    <td class="tg-0lax">64</td>
+    <td class="tg-0lax">6.4737</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">1024</td>
+    <td class="tg-0lax">32</td>
+    <td class="tg-0lax">6.203</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_1024_32.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">512</td>
+    <td class="tg-0lax">256</td>
+    <td class="tg-0lax">7.0491</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_512_256.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">512</td>
+    <td class="tg-0lax">192</td>
+    <td class="tg-0lax">6.9884</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_512_192.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">512</td>
+    <td class="tg-0lax">128</td>
+    <td class="tg-0lax">6.9730</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_512_128.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">512</td>
+    <td class="tg-0lax">96</td>
+    <td class="tg-0lax">6.7327</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_512_96.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">512</td>
+    <td class="tg-0lax">64</td>
+    <td class="tg-0lax">6.7075</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_512_64.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">512</td>
+    <td class="tg-0lax">32</td>
+    <td class="tg-0lax">6.3246</td>
+    <td class="tg-0lax"> <source src="LJ001-0001_Ours_half_zeroclip_512_32.wav" type="audio/wav"></audio> </td>
+  </tr> 
 
 ### Algorithm 2 Full Spectrum Bin
- 
-## Additional Studies
 
-### Artifacts in Algorithm 1
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-baqh">win</th>
+    <th class="tg-baqh">hop</th>
+    <th class="tg-baqh">MCD</th>
+    <th class="tg-baqh">sample</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh">1024</td>
+    <td class="tg-baqh">384</td>
+    <td class="tg-baqh">6.3424</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_1024_384.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1024</td>
+    <td class="tg-baqh">256</td>
+    <td class="tg-baqh">6.1896</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_1024_256.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1024</td>
+    <td class="tg-baqh">192</td>
+    <td class="tg-baqh">6.0609</td>
+    <td class="tg-baqh">   <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_1024_192.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1024</td>
+    <td class="tg-baqh">128</td>
+    <td class="tg-baqh">6.0109</td>
+    <td class="tg-baqh">   <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_1024_128.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1024</td>
+    <td class="tg-baqh">96</td>
+    <td class="tg-baqh">5.9476</td>
+    <td class="tg-baqh">   <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_1024_96.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1024</td>
+    <td class="tg-baqh">64</td>
+    <td class="tg-baqh">5.8248</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1024</td>
+    <td class="tg-baqh">32</td>
+    <td class="tg-baqh">5.7976</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_1024_32.wav" type="audio/wav"></audio>  </td>
+  </tr>
+   
+  <tr>
+    <td class="tg-baqh">512</td>
+    <td class="tg-baqh">256</td>
+    <td class="tg-baqh">6.5778</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_512_256.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">512</td>
+    <td class="tg-baqh">192</td>
+    <td class="tg-baqh">6.1632</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_512_256.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">512</td>
+    <td class="tg-baqh">128</td>
+    <td class="tg-baqh">6.0506</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_512_128.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">512</td>
+    <td class="tg-baqh">96</td>
+    <td class="tg-baqh">5.9512</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_512_96.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">512</td>
+    <td class="tg-baqh">64</td>
+    <td class="tg-baqh">5.8584</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_512_64.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">512</td>
+    <td class="tg-baqh">32</td>
+    <td class="tg-baqh">5.7065</td>
+    <td class="tg-baqh">  <source src="z_full_bin/LJ001-0001_Ours_full_zeroclip_512_32.wav" type="audio/wav"></audio> </td>
+  </tr>
+</tbody>
+</table>
 
-### denoising with zero clipping
+
 
 End of page ( 30 April. 2021)
