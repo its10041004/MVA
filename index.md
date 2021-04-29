@@ -243,128 +243,66 @@ In this work, we propose a new mathematical vocoder algorithm that generatesa wa
 <tbody>
   <tr>
     <td class="tg-0lax"> Ground-truth (recorded speech)    </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt/LJ001-0001.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt/LJ001-0003.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt/LJ001-0005.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt/LJ001-0015.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt/LJ001-0016.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
-  <tr>
-    <td class="tg-0lax"> WaveNet (30-layer,  res. channels =&nbsp;&nbsp;&nbsp;128)    </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
+
+
   <tr>
     <td class="tg-0lax"> WaveGlow (96-layer,  res. channels =&nbsp;&nbsp;&nbsp;256)    </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_96_256/LJ001-0001_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_96_256/LJ001-0003_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_96_256/LJ001-0005_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_96_256/LJ001-0015_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_96_256/LJ001-0016_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
-  <tr>
-    <td class="tg-0lax">WaveGlow (96-layer,  res. channels =&nbsp;&nbsp;&nbsp;128)    </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
-  <tr>
-    <td class="tg-0lax">WaveGlow (96-layer,  res. channels = 64) </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax"> WaveFlow (64-layer,  res. channels =&nbsp;&nbsp;&nbsp;256)    </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0001_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0003_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0005_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0015_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_gt_WaveGlow_64_256/LJ001-0016_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
-  <tr>
-    <td class="tg-0lax">WaveFlow (64-layer,  res. channels =&nbsp;&nbsp;&nbsp;128)    </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
-  <tr>
-    <td class="tg-0lax">WaveFlow (64-layer,  res. channels = 64) </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
-  <tr>
-    <td class="tg-0lax">ClariNet (60-layer,  res. channels = 64)  </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">Ours ( Algo1&nbsp;&nbsp;&nbsp;half zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0001_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0003_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0005_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>    
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0015_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0016_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0001_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0003_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0005_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>    
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0015_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0016_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0001_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0003_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0005_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>    
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0015_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0016_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0001_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0003_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0005_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>    
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0015_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0016_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
 </tbody>
