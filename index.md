@@ -94,14 +94,6 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
   </tr>
 
   <tr>
-    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN3_GT_LJ004-0233_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN4_GT_LJ011-0009_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN5_GT_LJ042-0161_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-  </tr>
-  <tr>
     <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
     <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
@@ -208,15 +200,6 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
   </tr>
 
   <tr>
-    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ003-0307_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ005-0101_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ007-0217_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ008-0131_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ010-0262_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-  </tr>
-  
-  <tr>
     <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
     <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ003-0307_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="ganvocoder_ours/assets_audio__gt_LJ005-0101_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
@@ -288,15 +271,6 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
   </tr>
 
   <tr>
-    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0001_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0003_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0005_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>    
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0015_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0016_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
-  </tr>
-
-  <tr>
     <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
     <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0001_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="waveflow_ours/LJ001-0003_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
@@ -324,113 +298,96 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
 <tbody>
   <tr>
     <td class="tg-0lax">Ground-truth </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt/LJ001-0001.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt/LJ001-0002.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt/LJ001-0003.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt/LJ001-0004.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt/LJ001-0005.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-0lax">WaveNet&nbsp;&nbsp;&nbsp;(C = 128)   </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveNet_128/teacher8_l30_k2-LJ001-0001.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveNet_128/teacher8_l30_k2-LJ001-0002.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveNet_128/teacher8_l30_k2-LJ001-0003.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveNet_128/teacher8_l30_k2-LJ001-0004.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveNet_128/teacher8_l30_k2-LJ001-0005.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-0lax">WaveFlow&nbsp;&nbsp;&nbsp;(C = 128)  </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_128/LJ001-0001_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_128/LJ001-0002_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_128/LJ001-0003_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_128/LJ001-0004_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_128/LJ001-0005_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
     <td class="tg-0lax"> </td>
   </tr>
+  
   <tr>
     <td class="tg-0lax">DiffWave&nbsp;&nbsp;&nbsp;(C = 128, T = 200)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_128_200/wav_ch_128_T_200_iter_1000000_cond_1_0.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_128_200/wav_ch_128_T_200_iter_1000000_cond_2_0.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_128_200/wav_ch_128_T_200_iter_1000000_cond_3_0.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_128_200/wav_ch_128_T_200_iter_1000000_cond_4_0.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_128_200/wav_ch_128_T_200_iter_1000000_cond_5_0.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">WaveFlow&nbsp;&nbsp;&nbsp;(C = 64)    </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_64/LJ001-0001_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_64/LJ001-0002_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_64/LJ001-0003_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_64/LJ001-0004_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_WaveFlow_64/LJ001-0005_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">DiffWave&nbsp;&nbsp;&nbsp;(C = 64,  T = 50)   </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_64_50/wav_ch_64_T_50_iter_1000000_cond_1_0.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_64_50/wav_ch_64_T_50_iter_1000000_cond_2_0.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_64_50/wav_ch_64_T_50_iter_1000000_cond_3_0.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_64_50/wav_ch_64_T_50_iter_1000000_cond_4_0.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_DiffWave_64_50/wav_ch_64_T_50_iter_1000000_cond_5_0.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">ClariNet&nbsp;&nbsp;&nbsp;(C = 64) </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_ClariNet_64/LJ001-0001_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_ClariNet_64/LJ001-0002_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_ClariNet_64/LJ001-0003_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_ClariNet_64/LJ001-0004_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_gt_ClariNet_64/LJ001-0005_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">Ours ( Algo1&nbsp;&nbsp;&nbsp;half zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0001_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0002_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0003_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0004_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0005_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0001_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0002_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0003_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0004_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0005_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
+
   <tr>
     <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0001_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0002_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0003_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0004_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="diffwave_ours/LJ001-0005_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
 </tbody>
 </table> |
 
@@ -452,83 +409,83 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
 <tbody>
   <tr>
     <td class="tg-lqy6">Ground Truth</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt/LJ001-0015.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt/LJ001-0051.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt/LJ001-0063.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt/LJ001-0072.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt/LJ001-0079.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-lqy6">Griffin-Lim</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0015.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0051.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0063.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0072.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_GriffinLim/LJ001-0079.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-lqy6">WaveNet</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0015.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0051.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0063.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0072.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveNet/LJ001-0079.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-lqy6">WaveGlow</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveGlow/LJ001-0015.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveGlow/LJ001-0051.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveGlow/LJ001-0063.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveGlow/LJ001-0072.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="waveglow_gt_WaveGlow/LJ001-0079.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-lqy6">WaveGlow(SW)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_baseline_WaveGlow/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_baseline_WaveGlow/LJ001-0051.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_baseline_WaveGlow/LJ001-0063.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_baseline_WaveGlow/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_baseline_WaveGlow/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-lqy6">SqueezeWave 128L</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128L/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128L/LJ001-0051.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128L/LJ001-0063.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128L/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128L/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-lqy6">SqueezeWave 128S</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128S/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128S/LJ001-0051.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128S/LJ001-0063.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128S/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_128S/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-lqy6">SqueezeWave 64L</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64_L/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64_L/LJ001-0051.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64_L/LJ001-0063.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64_L/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64_L/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
     <td class="tg-lqy6">SqueezeWave 64S</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64S/LJ001-0015.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64S/LJ001-0051.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64S/LJ001-0063.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64S/LJ001-0072.wav_synthesis.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls=""><source src="squeezeWave_gt_SqueezeWave_64S/LJ001-0079.wav_synthesis.wav" type="audio/wav"></audio> </td>
   </tr>
   </tr>
   <tr>
@@ -539,7 +496,8 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
+
   <tr>
     <td class="tg-lqy6">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
     <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
@@ -548,25 +506,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
-  <tr>
-    <td class="tg-lqy6">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
-  <tr>
-    <td class="tg-lqy6">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/510)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
-  </tr>
-  </tr>
+
   <tr>
     <td class="tg-lqy6">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
     <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
@@ -575,7 +515,7 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
     <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
     <td class="tg-0lax"> <audio controls=""><source src="" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
 </tbody>
 </table>
  
