@@ -682,6 +682,72 @@ In Algorithm 2(full), artifacts disappeared.
 </tbody>
 </table>
 
+ <h2> denoising effect with positive threshold  </h2> <p>
+ 
+ <table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"> </th>
+    <th class="tg-0lax"> LJ001-0001</th>
+    <th class="tg-0lax"> LJ001-0015</th>
+    <th class="tg-0lax"> LJ002-0097</th>
+    <th class="tg-0lax"> LJ003-0048</th>
+    <th class="tg-0lax"> LJ005-0240</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">gt</td>
+    <td class="tg-0lax">Ground Truth<audio controls="" preload="none"> <source src="denoising/LJ001-0001.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax">Ground Truth<audio controls="" preload="none"> <source src="denoising/LJ001-0015.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax">Ground Truth<audio controls="" preload="none"> <source src="denoising/LJ002-0097.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax">Ground Truth<audio controls="" preload="none"> <source src="denoising/LJ003-0048.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax">Ground Truth<audio controls="" preload="none"> <source src="denoising/LJ005-0240.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">denoising tool mild</td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ001-0001_denoising_mild.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ001-0015_denoising_mild.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ002-0097_denoising_mild.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ003-0048_denoising_mild.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ005-0240_denoising_mild.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">denoising tool strong</td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ001-0001_denoising_strong.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ001-0015_denoising_strong.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ002-0097_denoising_strong.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ003-0048_denoising_strong.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ005-0240_denoising_strong.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">zero clipping threshold=0</td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ001-0001_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ001-0015_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ002-0097_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ003-0048_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax">  <audio controls="" preload="none"> <source src="denoising/LJ005-0240_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">zero clipping threshold=0.05</td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ001-0001_Ours_full_zeroclip_0.050_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ001-0015_Ours_full_zeroclip_0.050_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ002-0097_Ours_full_zeroclip_0.050_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ003-0048_Ours_full_zeroclip_0.050_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ005-0240_Ours_full_zeroclip_0.050_1024_64.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">zero clipping threshold=0.1</td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ001-0001_Ours_full_zeroclip_0.100_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ001-0015_Ours_full_zeroclip_0.100_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ002-0097_Ours_full_zeroclip_0.100_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ003-0048_Ours_full_zeroclip_0.100_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="" preload="none"> <source src="denoising/LJ005-0240_Ours_full_zeroclip_0.100_1024_64.wav" type="audio/wav"></audio> </td>
+  </tr>
+</tbody>
+</table>
+ 
+ 
  </div>
  <br><br>
  </body>
