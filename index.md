@@ -22,84 +22,84 @@ In this work, we propose a new mathematical vocoder algorithm that generates a w
 <tbody>
   <tr>
     <td class="tg-0lax">Ground Truth</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gt/HIFIGAN1_GT_LJ050-0270.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gt/HIFIGAN2_GT_LJ017-0033.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gt/HIFIGAN3_GT_LJ004-0233.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gt/HIFIGAN4_GT_LJ011-0009.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gt/HIFIGAN5_GT_LJ042-0161.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gt/HIFIGAN1_GT_LJ050-0270.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gt/HIFIGAN2_GT_LJ017-0033.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gt/HIFIGAN3_GT_LJ004-0233.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gt/HIFIGAN4_GT_LJ011-0009.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gt/HIFIGAN5_GT_LJ042-0161.wav" type="audio/wav"></audio> </td>
   </tr>
   <tr>
     <td class="tg-0lax">WaveNet (MoL)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_1.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_2.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_3.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_4.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_5.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_1.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_2.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_3.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_4.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px;"><source src="hifigan_gtLJS_WaveNetMoL/ss_wn_5.wav" type="audio/wav"></audio> </td>
   </tr>
   <tr>
     <td class="tg-0lax">WaveGlow</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveGlow/ss_wg_1.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveGlow/ss_wg_2.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveGlow/ss_wg_3.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveGlow/ss_wg_4.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_WaveGlow/ss_wg_5.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_WaveGlow/ss_wg_1.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_WaveGlow/ss_wg_2.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_WaveGlow/ss_wg_3.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_WaveGlow/ss_wg_4.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_WaveGlow/ss_wg_5.wav" type="audio/wav"></audio> </td>
   </tr>
   <tr>
     <td class="tg-0lax">MelGAN</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_MelGAN/ss_mg_1.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_MelGAN/ss_mg_2.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_MelGAN/ss_mg_3.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_MelGAN/ss_mg_4.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_MelGAN/ss_mg_5.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_MelGAN/ss_mg_1.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_MelGAN/ss_mg_2.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_MelGAN/ss_mg_3.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_MelGAN/ss_mg_4.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_MelGAN/ss_mg_5.wav" type="audio/wav"></audio>  </td>
   </tr>
   <tr>
     <td class="tg-0lax">HiFi-GAN V1</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_1.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_2.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_3.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_4.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_5.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_1.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_2.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_3.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_4.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v1/ss_hgan_v1_5.wav" type="audio/wav"></audio> </td>
   </tr>
   <tr>
     <td class="tg-0lax">HiFi-GAN V2</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_1.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_2.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_3.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_4.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_5.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_1.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_2.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_3.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_4.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v2/ss_hgan_v2_5.wav" type="audio/wav"></audio>  </td>
   </tr>
   <tr>
     <td class="tg-0lax">HiFi-GAN V3</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_1.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_2.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_3.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_4.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_5.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_1.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_2.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_3.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_4.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_gtLJS_HifiGAN_v3/ss_hgan_v3_5.wav" type="audio/wav"></audio> </td>
   </tr>
   <tr>
     <td class="tg-0lax">Ours ( Algo1&nbsp;&nbsp;&nbsp;half zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN3_GT_LJ004-0233_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN4_GT_LJ011-0009_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN5_GT_LJ042-0161_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN3_GT_LJ004-0233_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN4_GT_LJ011-0009_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN5_GT_LJ042-0161_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
   <tr>
     <td class="tg-0lax">Ours ( Algo2&nbsp;&nbsp;&nbsp;full zeroclip 1024/64)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN3_GT_LJ004-0233_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN4_GT_LJ011-0009_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN5_GT_LJ042-0161_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN3_GT_LJ004-0233_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN4_GT_LJ011-0009_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN5_GT_LJ042-0161_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
 
   <tr>
-    <td class="tg-0lax">Ours ( Algo3&nbsp;&nbsp;&nbsp;full signed 512/384)</td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN3_GT_LJ004-0233_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN4_GT_LJ011-0009_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
-    <td class="tg-0lax"> <audio controls=""><source src="hifigan_ours/HIFIGAN5_GT_LJ042-0161_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax">Ours ( Algo3&nbsp;width: 50px&nbsp;&nbsp;full signed 512/384)</td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN1_GT_LJ050-0270_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN2_GT_LJ017-0033_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN3_GT_LJ004-0233_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN4_GT_LJ011-0009_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0lax"> <audio controls="width: 50px"><source src="hifigan_ours/HIFIGAN5_GT_LJ042-0161_Ours_full_signed_512_384.wav" type="audio/wav"></audio> </td>
   </tr>
   
 </tbody>
