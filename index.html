@@ -42,7 +42,22 @@ The proposed method is expected to adapt for researching on neural network model
 </tr> 
 </tbody>
 </table>   
-     
+
+     <p class="toc_title">Contents</p>
+    <div id="toc_container">
+    <ul>
+      <li><a href="#hf"> comparison with [Hifi-GAN] (LJ Speech Dataset)</a></li>
+      <li><a href="gv"> comparison with [GAN vocoder] (LJ Speech Dataset) </a></li>
+      <li><a href="#wf">Comparison with [WaveFlow] (LJ Speech Dataset)</a></li>
+      <li><a href="#dw">Comparison with [DiffWave] (LJ Speech Dataset)</a></li>     
+      <li><a href="#wg">Comparison with [WaveGlow] (LJ Speech Dataset)</a></li>     
+      <li><a href="#wg">Comparison with [SqeezeWave] (LJ Speech Dataset)</a></li>     
+      <li><a href="#hop">Ablation Studies 1. various hop size (LJ Speech Dataset)</a></li>
+      <li><a href="#dn">Ablation Studies 2. denoising effects(LJ Speech Dataset)</a></li>     
+    </ul>
+    </div>
+ 
+ 
  </div>
 <p>
 CAUTION : All sample files are not preloaded, so you have to wait a bit after hitting the play button depending on your internet connection environment.  
@@ -59,7 +74,7 @@ For the comparison of sound quality, all neural vocoder synthesis samples except
 
 <p><p>
  
- <h2> LJSpeech samples from <a href="https://jik876.github.io/hifi-gan-demo/"> [Hifi-GAN]</a> </h2>
+<a name="hf"><h2> LJSpeech samples from <a href="https://jik876.github.io/hifi-gan-demo/"> [Hifi-GAN]</a> </h2> <a/>
  <hr>
  <div>
 <table class="tg">
@@ -160,7 +175,7 @@ For the comparison of sound quality, all neural vocoder synthesis samples except
 </table>
 <p><p>
   
- <h2> LJSpeech sampels from <a herf="https://moneybrain-research.github.io/gan-vocoder"> [GAN vocoder] </a> </h2>
+<a name="gv"> <h2> LJSpeech sampels from <a herf="https://moneybrain-research.github.io/gan-vocoder"> [GAN vocoder] </a> </h2></a>
  <hr><table class="tg">
 <thead>
  <tr>
@@ -257,7 +272,7 @@ For the comparison of sound quality, all neural vocoder synthesis samples except
 </table>
 <p><p>
  
- <h2> LJSpeech sampels from <a href="https://waveflow-demo.github.io/" > [WaveFlow] </a> </h2>
+<a name="wf"> <h2> LJSpeech sampels from <a href="https://waveflow-demo.github.io/" > [WaveFlow] </a> </h2></a>
 
  <hr><table class="tg">
 <thead>
@@ -330,7 +345,7 @@ For the comparison of sound quality, all neural vocoder synthesis samples except
 </table>
 <p><p>
 
- <h2>LJSpeech sampels from <a href="https://diffwave-demo.github.io/"> [DiffWave] </a> </h2>
+<a name="dw"> <h2>LJSpeech sampels from <a href="https://diffwave-demo.github.io/"> [DiffWave] </a> </h2> </a>
  <hr><table class="tg">
 <thead>
  <tr>
@@ -437,7 +452,7 @@ For the comparison of sound quality, all neural vocoder synthesis samples except
 </table> 
 <p><p>
  
-<h2>LJSpeech sampels from <a href="https://nv-adlr.github.io/WaveGlow" > [WaveGlow] </a> and <a href="https://tianrengao.github.io/SqueezeWaveDemo"> [SqueezeWave] </a></h2>
+<a name="wg"><h2>LJSpeech sampels from <a href="https://nv-adlr.github.io/WaveGlow" > [WaveGlow] </a> and <a href="https://tianrengao.github.io/SqueezeWaveDemo"> [SqueezeWave] </a></h2></a>
  
  
  <hr><table class="tg">
@@ -568,7 +583,7 @@ For the comparison of sound quality, all neural vocoder synthesis samples except
  <h1> Ablation Studies </h1> <p>
  
 
- <h2> Compare half & full Spectrum Bin for LJ001-0001 sample </h2> <p>
+ <a name="hop"><h2> Compare half & full Spectrum Bin for LJ001-0001 sample </h2> </a><p>
 We could get better quality with smaller hop size. <br> 
 In Algorithm 1(half), we could see three types of  artifacts.
 In Algorithm 2(full), artifacts disappeared. 
@@ -686,7 +701,7 @@ In Algorithm 2(full), artifacts disappeared.
 </tbody>
 </table>
 <p><p>
- <h2> denoising effect with positive threshold  </h2> <p>
+ <a name="dn"><h2> denoising effect with positive threshold  </h2> <p></a>
 In Algorithm 2, the noise removal effect was obtained by slightly increasing the threshold value instead of zero clipping. <br>
 The light noise in the silent section was able to obtain the denoising effect of a commercial tool level without special work.
  <hr> <table class="tg">
