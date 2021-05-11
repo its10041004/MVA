@@ -767,6 +767,116 @@ The light noise in the silent section was able to obtain the denoising effect of
   </tr>
 </tbody>
 </table>
+
+ <p><p>
+ <a name="44"><h2> 44Khz samples  </h2> <p></a>
+We evaluate 44Khz audio samples Speech, Music(Pop) and Performance(Piano)  <br>
+In Algorithm2, we need more fine hop size for higher sampling rate samples for speech. 
+However, we could increase hop size for music because we could not recognize the ghost effect in loud sound.
+ <hr> <table class="tg">
+<thead>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"> </th>
+    <th class="tg-0pky">Speech</th>
+    <th class="tg-0pky">POP</th>
+    <th class="tg-0pky">K-POP</th>
+    <th class="tg-0pky">Piano</th>
+    <th class="tg-0pky">Classic</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">GT</td>
+    <td class="tg-0pky"><audio controls="" preload="none"> <source src="44khz/gt_s1.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"><audio controls="" preload="none"> <source src="44khz/gt_s2.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"><audio controls="" preload="none"> <source src="44khz/gt_s3.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"><audio controls="" preload="none"> <source src="44khz/gt_s4.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"><audio controls="" preload="none"> <source src="44khz/gt_s5.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo2(2048/512)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_zeroclip_0.000_2048_512.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_zeroclip_0.000_2048_512.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_zeroclip_0.000_2048_512.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_zeroclip_0.000_2048_512.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_zeroclip_0.000_2048_512.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo2(2048/256)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_zeroclip_0.000_2048_256.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_zeroclip_0.000_2048_256.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_zeroclip_0.000_2048_256.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_zeroclip_0.000_2048_256.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_zeroclip_0.000_2048_256.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo2(2048/128)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_zeroclip_0.000_2048_128.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_zeroclip_0.000_2048_128.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_zeroclip_0.000_2048_128.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_zeroclip_0.000_2048_128.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_zeroclip_0.000_2048_128.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo2(2048/64)</td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_zeroclip_0.000_2048_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_zeroclip_0.000_2048_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_zeroclip_0.000_2048_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_zeroclip_0.000_2048_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_zeroclip_0.000_2048_64.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo2(1024/256)</td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_zeroclip_0.000_1024_256.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_zeroclip_0.000_1024_256.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_zeroclip_0.000_1024_256.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_zeroclip_0.000_1024_256.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_zeroclip_0.000_1024_256.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo2(1024/128)</td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_zeroclip_0.000_1024_128.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_zeroclip_0.000_1024_128.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_zeroclip_0.000_1024_128.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_zeroclip_0.000_1024_128.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_zeroclip_0.000_1024_128.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo2(1024/64)</td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky">  <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_zeroclip_0.000_1024_64.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo3(2048/2046)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_signed_2048_2046.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_signed_2048_2046.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_signed_2048_2046.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_signed_2048_2046.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_signed_2048_2046.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo3(1024/1022)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio>  </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Algo3(512/510)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s1_Ours_full_signed_512_510.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s2_Ours_full_signed_512_510.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s3_Ours_full_signed_512_510.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s4_Ours_full_signed_512_510.wav" type="audio/wav"></audio>  </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="44khz/gt_s5_Ours_full_signed_512_510.wav" type="audio/wav"></audio>  </td>
+  </tr>
+</tbody>
+</table>
  
  
  </div>
