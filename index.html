@@ -54,8 +54,6 @@ The main benefit of using our proposed method is that it excludes the training s
       <li><a href="#wg">Comparison with [SqeezeWave] (LJ Speech Dataset)</a></li>     
       <li><a href="#hop">Ablation Studies 1. various hop size (LJ Speech Dataset)</a></li>
       <li><a href="#dn">Ablation Studies 2. denoising effects(LJ Speech Dataset)</a></li>     
-     <li><a href="#44">Ablation Studies 3. 44Khz samples (speech and music)</a></li> 
-     <li><a href="#mls">Ablation Studies 4. Multi Languages (MLS Speech Dataset)</a></li> 
     </ul>
     </div>
  
@@ -979,10 +977,10 @@ However, we could increase hop size for music because we could not recognize the
 </tbody>
 </table>
  <p><p>
- <a name="mls"><h2> Multi Languages (MLS samples)  </h2> <p></a>
+ <a name="44"><h2> MLS samples  </h2> <p></a>
 We evaluate Multi Languages from MLS dataset.    <br>
-The sampling rate is 48Khz for original OPUS file. However, the recorded quality is very bad and data is less than 17Khz.  <br>
-So we use 16Khz sampling rate to truncate the higher frequency.  <br>
+the sampling rate is 44Khz for original OPUS file. However, the recorded data is less than 17Khz.  <br>
+We use 16Khz sampling rate to truncate the higher frequency.  <br>
  <hr> <table class="tg">
 <thead>
 
@@ -1045,7 +1043,7 @@ So we use 16Khz sampling rate to truncate the higher frequency.  <br>
     <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
     <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
 
 
   <tr>
@@ -1081,7 +1079,7 @@ So we use 16Khz sampling rate to truncate the higher frequency.  <br>
     <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
     <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
   </tr>
-  </tr>
+
 
   <tr>
     <td class="tg-0pky">algo3(1024/1022)</td>
