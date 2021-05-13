@@ -54,6 +54,8 @@ The main benefit of using our proposed method is that it excludes the training s
       <li><a href="#wg">Comparison with [SqeezeWave] (LJ Speech Dataset)</a></li>     
       <li><a href="#hop">Ablation Studies 1. various hop size (LJ Speech Dataset)</a></li>
       <li><a href="#dn">Ablation Studies 2. denoising effects(LJ Speech Dataset)</a></li>     
+     <li><a href="#44">Ablation Studies 3. 44Khz samples (speech and music)</a></li> 
+     <li><a href="#mls">Ablation Studies 4. Multi Languages (MLS Speech Dataset)</a></li> 
     </ul>
     </div>
  
@@ -976,7 +978,126 @@ However, we could increase hop size for music because we could not recognize the
   </tr>
 </tbody>
 </table>
- 
+ <p><p>
+ <a name="mls"><h2> Multi Languages (MLS samples)  </h2> <p></a>
+We evaluate Multi Languages from MLS dataset.    <br>
+the sampling rate is 44Khz for original OPUS file. However, the recorded data is less than 17Khz.  <br>
+We use 16Khz sampling rate to truncate the higher frequency.  <br>
+ <hr> <table class="tg">
+<thead>
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"> </th>
+    <th class="tg-0pky">English</th>
+    <th class="tg-0pky">Spain</th>
+    <th class="tg-0pky">German</th>
+    <th class="tg-0pky">French</th>
+    <th class="tg-0pky">Dutch</th>
+    <th class="tg-0pky">Polish</th>
+    <th class="tg-0pky">Italian</th>
+    <th class="tg-0pky">Portuguese</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">GT</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/english_2182_1547_000000.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/spanish_97_567_000000.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/german_135_82_000000.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/french_14_394_000000.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/dutch_1666_795_000000.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/polish_5090_1447_000000.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">algo1(1024/256)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/english_2182_1547_000000_Ours_half_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/spanish_97_567_000000_Ours_half_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/german_135_82_000000_Ours_half_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/french_14_394_000000_Ours_half_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/dutch_1666_795_000000_Ours_half_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/polish_5090_1447_000000_Ours_half_zeroclip_1024_256.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000_Ours_half_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000_Ours_half_zeroclip_1024_256.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">algo1(1024/128)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/english_2182_1547_000000_Ours_half_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/spanish_97_567_000000_Ours_half_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/german_135_82_000000_Ours_half_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/french_14_394_000000_Ours_half_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/dutch_1666_795_000000_Ours_half_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/polish_5090_1447_000000_Ours_half_zeroclip_1024_128.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000_Ours_half_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000_Ours_half_zeroclip_1024_128.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">algo1(1024/64)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/english_2182_1547_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/spanish_97_567_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/german_135_82_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/french_14_394_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/dutch_1666_795_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/polish_5090_1447_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000_Ours_half_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+  </tr>
+  </tr>
+
+
+  <tr>
+    <td class="tg-0pky">algo2(1024/256)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/english_2182_1547_000000_Ours_full_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/spanish_97_567_000000_Ours_full_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/german_135_82_000000_Ours_full_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/french_14_394_000000_Ours_full_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/dutch_1666_795_000000_Ours_full_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/polish_5090_1447_000000_Ours_full_zeroclip_1024_256.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000_Ours_full_zeroclip_1024_256.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000_Ours_full_zeroclip_1024_256.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">algo2(1024/128)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/english_2182_1547_000000_Ours_full_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/spanish_97_567_000000_Ours_full_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/german_135_82_000000_Ours_full_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/french_14_394_000000_Ours_full_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/dutch_1666_795_000000_Ours_full_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/polish_5090_1447_000000_Ours_full_zeroclip_1024_128.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000_Ours_full_zeroclip_1024_128.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000_Ours_full_zeroclip_1024_128.wav" type="audio/wav"></audio> </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">algo2(1024/64)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/english_2182_1547_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/spanish_97_567_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/german_135_82_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/french_14_394_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/dutch_1666_795_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/polish_5090_1447_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000_Ours_full_zeroclip_1024_64.wav" type="audio/wav"></audio> </td>
+  </tr>
+  </tr>
+
+  <tr>
+    <td class="tg-0pky">algo3(1024/1022)</td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/english_2182_1547_000000_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/spanish_97_567_000000_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/german_135_82_000000_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/french_14_394_000000_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/dutch_1666_795_000000_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/polish_5090_1447_000000_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio> </td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/italian_642_529_000000_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio> /td>
+    <td class="tg-0pky"> <audio controls="" preload="none"> <source src="mls/portuguese_4067_3313_000000_Ours_full_signed_1024_1022.wav" type="audio/wav"></audio> </td>
+  </tr>
+  </tr>
+</tbody>
+</table> 
+
  
  </div>
  <br><br>
